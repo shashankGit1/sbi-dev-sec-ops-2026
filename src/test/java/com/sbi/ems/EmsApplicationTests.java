@@ -133,7 +133,7 @@ class EmsApplicationTests {
 	// ── 9. Actuator env is NOT exposed ───────────────────────────────────────
 	@Test
 	@DisplayName("GET /actuator/env is NOT accessible — returns 404 (not exposed)")
-	@Disabled("TODO fix later")
+	@Disabled("TODO fix now")
 	void actuatorEnv_isNotExposed() throws Exception {
 		// DevSecOps: /actuator/env would expose all env vars including JWT_SECRET
 		// management.endpoints.web.exposure.include=health,info ensures it is not
